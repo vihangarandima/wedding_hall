@@ -1,0 +1,5 @@
+node_modules/
+.freebuff/
+.claude/
+.DS_Store
+Thumbs.db

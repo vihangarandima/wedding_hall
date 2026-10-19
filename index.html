@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Ransiri Grand — Weddings &amp; Celebrations by the Sea, Negombo</title>
+  <meta name="description" content="Ransiri Grand is a seaside venue in Negombo, Sri Lanka for Poruwa, Nikah, Hindu and church weddings, homecomings and corporate events, 15 minutes from BIA." />
+  <meta name="theme-color" content="#f6f6f3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@1,400;1,500;1,600&family=Noto+Sans+Sinhala:wght@400;500&family=Noto+Sans+Tamil:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/hero-poster.webp" />
+  <link rel="stylesheet" href="css/style.css?v=13" />
+</head>
+<body>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <!-- ======= TOP BAR ======= -->
+  <header class="top">
+    <a href="#top" class="brand" aria-label="Ransiri Grand home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#mark"/></svg>
+      <span>Ransiri <i>Grand</i></span>
+    </a>
+    <a href="#book" class="pill pill--dark pill--sm">Contact us</a>
+  </header>
+
+  <!-- ======= FLOATING NAV ======= -->
+  <div class="dock" aria-label="Site navigation">
+    <nav class="dock-menu" id="dockMenu" aria-hidden="true">
+      <a href="#celebrations"><span>Celebrations</span><small>01</small></a>
+      <a href="#spaces"><span>Our spaces</span><small>02</small></a>
+      <a href="#traditions"><span>Traditions</span><small>03</small></a>
+      <a href="#gallery"><span>Moments</span><small>04</small></a>
+      <a href="#packages"><span>Packages</span><small>05</small></a>
+      <a href="#reviews"><span>Reviews</span><small>06</small></a>
+      <a href="#faq"><span>FAQ</span><small>07</small></a>
+      <a href="#book"><span>Book a visit</span><small>08</small></a>
+      <div class="dock-menu-foot">
+        <a href="tel:+94310000000">+94 31 000 0000</a>
+        <a href="https://wa.me/94770000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </nav>
+    <div class="dock-bar">
+      <a href="#top" class="dock-mark" aria-label="Back to top"><svg viewBox="0 0 32 32"><use href="#mark"/></svg></a>
+      <span class="dock-pct" aria-hidden="true"><span class="js-pct">0</span>%</span>
+      <button class="dock-btn" type="button" aria-expanded="false" aria-controls="dockMenu">
+        <span class="dock-ico" aria-hidden="true"><i></i><i></i></span><span class="dock-lbl">Menu</span>
+      </button>
+    </div>
+  </div>
+
+  <main id="top">
+    <!-- ======= HERO ======= -->
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <img class="hero-poster" src="assets/img/hero-poster.webp" alt="" fetchpriority="high" />
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/img/hero-poster.webp" tabindex="-1">
+          <source src="assets/video/hero-coast.mp4" type="video/mp4" />
+        </video>
+        <span class="hero-grain"></span>
+      </div>
+      <div class="hero-fade" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <p class="hero-eyebrow" data-fade><span aria-hidden="true"></span> Negombo · Sri Lanka <span aria-hidden="true"></span></p>
+        <a href="#reviews" class="rating">
+          <span class="g">G</span>
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span><b>4.9</b> from 860 Google reviews</span>
+        </a>
+        <h1 class="hero-title" data-split>Sri Lanka's <em>seaside</em> home for weddings &amp; celebrations</h1>
+        <p class="hero-sub" data-fade>Poruwa, Nikah, Hindu and church weddings, homecomings and company nights, on the Negombo coast and 15 minutes from the airport.</p>
+        <div class="hero-ctas" data-fade>
+          <a href="#book" class="pill pill--dark">Check availability</a>
+          <a href="https://wa.me/94770000000" target="_blank" rel="noopener" class="pill pill--light">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- booking search bar -->
+      <form class="finder" id="finder" aria-label="Check a date">
+        <label class="f-seg">
+          <span class="f-lbl">Celebration</span>
+          <select name="type">
+            <option>Poruwa wedding</option>
+            <option>Nikah &amp; Walima</option>
+            <option>Hindu wedding</option>
+            <option>Church wedding</option>
+            <option>Homecoming</option>
+            <option>Engagement</option>
+            <option>Company event</option>
+            <option>Birthday or anniversary</option>
+          </select>
+        </label>
+        <label class="f-seg">
+          <span class="f-lbl">Date</span>
+          <input type="date" name="date" />
+        </label>
+        <div class="f-seg f-guests">
+          <span class="f-lbl">Guests</span>
+          <div class="stepper">
+            <button type="button" data-step="-50" aria-label="Fewer guests">−</button>
+            <output name="guests">300</output>
+            <button type="button" data-step="50" aria-label="More guests">+</button>
+          </div>
+        </div>
+        <label class="f-seg">
+          <span class="f-lbl">Space</span>
+          <select name="venue">
+            <option>Any space</option>
+            <option>Grand Ballroom</option>
+            <option>Lotus Hall</option>
+            <option>Seaside Lawn</option>
+            <option>Poolside Terrace</option>
+            <option>Garden Courtyard</option>
+          </select>
+        </label>
+        <button type="submit" class="f-go" aria-label="Check this date">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4 4"/></svg>
+          <span>Check</span>
+        </button>
+        <p class="f-msg" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <!-- ======= CELEBRATIONS GRID ======= -->
+    <section class="celebrations" id="celebrations">
+      <p class="kicker" data-fade>Chosen by families of every faith, and by companies too</p>
+      <ul class="cgrid">
+        <li><img src="assets/img/trad-poruwa.webp" alt="" loading="lazy" /><span>Poruwa wedding</span></li>
+        <li><img src="assets/img/b-walima-settee.webp" alt="" loading="lazy" /><span>Nikah &amp; Walima</span></li>
+        <li><img src="assets/img/trad-hindu.webp" alt="" loading="lazy" /><span>Hindu wedding</span></li>
+        <li><img src="assets/img/trad-church.webp" alt="" loading="lazy" /><span>Church wedding</span></li>
+        <li><img src="assets/img/bride-kandyan.webp" alt="" loading="lazy" /><span>Homecoming</span></li>
+        <li><img src="assets/img/rings.webp" alt="" loading="lazy" /><span>Engagement</span></li>
+        <li><img src="assets/img/m-henna-hands.webp" alt="" loading="lazy" /><span>Mehndi night</span></li>
+        <li><img src="assets/img/func-corporate.webp" alt="" loading="lazy" /><span>Company event</span></li>
+        <li><img src="assets/img/cake.webp" alt="" loading="lazy" /><span>Birthday &amp; anniversary</span></li>
+        <li><img src="assets/img/sl-royal-buffet.webp" alt="" loading="lazy" /><span>Get-together</span></li>
+      </ul>
+    </section>
+
+    <!-- ======= ONE TEAM (floating cards) ======= -->
+    <section class="team">
+      <div class="floaters" aria-hidden="true">
+        <figure class="fl fl-1" data-d="22"><img src="assets/img/dancer.webp" alt="" loading="lazy" /></figure>
+        <figure class="fl fl-2" data-d="-16"><img src="assets/img/m-henna-group.webp" alt="" loading="lazy" /></figure>
+        <figure class="fl fl-3" data-d="30"><img src="assets/img/cake.webp" alt="" loading="lazy" /><figcaption>Cake tasting · Sat</figcaption></figure>
+        <figure class="fl fl-4" data-d="-26"><img src="assets/img/m-stage-2.webp" alt="" loading="lazy" /></figure>
+        <figure class="fl fl-5" data-d="18"><img src="assets/img/drummers.webp" alt="" loading="lazy" /><figcaption>Magul bera troupe</figcaption></figure>
+        <figure class="fl fl-6" data-d="-20"><img src="assets/img/table.webp" alt="" loading="lazy" /></figure>
+      </div>
+      <div class="team-copy">
+        <h2 class="h2" data-split>One team for the whole day, not ten vendors</h2>
+        <p class="lead" data-fade>Our décor studio, kitchens, sound and lighting crew and day-of coordinators are all in-house. You plan with one person, and they run the day.</p>
+        <a href="#packages" class="pill pill--dark" data-fade>See packages &amp; prices</a>
+        <p class="socials" data-fade>
+          <span>See our latest weddings</span>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><use href="#ig"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><use href="#fb"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><use href="#tt"/></svg></a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ======= SHOWREEL BAND ======= -->
+    <section class="reel">
+      <div class="reel-media">
+        <img src="assets/img/film-venue.webp" alt="The venue lawn at golden hour" loading="lazy" />
+        <video class="reel-video" muted loop playsinline preload="none" poster="assets/img/film-venue.webp" aria-hidden="true" tabindex="-1">
+          <source src="assets/video/film-venue.mp4" type="video/mp4" />
+        </video>
+        <span class="reel-grain" aria-hidden="true"></span>
+      </div>
+      <div class="reel-word" aria-hidden="true"><span>CELEBRATE</span></div>
+      <div class="reel-foot">
+        <p>Evenings by the sea, lit the way you imagined them.</p>
+        <div class="reel-actions">
+          <button type="button" class="reel-play js-media" data-i="3" aria-label="Play the venue film">
+            <span class="play-orb" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#play"/></svg></span>
+            <span><small>Watch the film</small><b>The venue at golden hour</b></span>
+          </button>
+          <button type="button" class="reel-btn js-gallery">View the gallery <svg viewBox="0 0 24 24"><use href="#arrow"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= SPACES (coverflow) ======= -->
+    <section class="spaces" id="spaces">
+      <div class="sec-head">
+        <span class="eyebrow" data-fade>02 · Spaces</span>
+        <h2 class="h2" data-split>Explore our <em>five</em> spaces</h2>
+        <p class="lead" data-fade>From a 1,200-seat ballroom to a lawn above the waves. Drag, swipe or use the arrows.</p>
+      </div>
+      <div class="flow" tabindex="0" aria-roledescription="carousel" aria-label="Venue spaces">
+        <article class="fcard">
+          <img src="assets/img/m-ballroom-gold.webp" alt="The Grand Ballroom set for a reception" />
+          <span class="chip">Up to 1,200</span>
+          <div class="fcard-txt"><h3>Grand Ballroom</h3><p>Chandeliers, a bridal staircase and a stage. It divides for separate seating.</p></div>
+        </article>
+        <article class="fcard">
+          <img src="assets/img/m-hall-marble.webp" alt="Lotus Hall with marble columns" />
+          <span class="chip">Up to 450</span>
+          <div class="fcard-txt"><h3>Lotus Hall</h3><p>Marble and soft light for Nikahs, engagements and smaller receptions.</p></div>
+        </article>
+        <article class="fcard">
+          <img src="assets/img/hero-seaside.webp" alt="The Seaside Lawn set for a ceremony" />
+          <span class="chip">Up to 600</span>
+          <div class="fcard-txt"><h3>Seaside Lawn</h3><p>Ceremonies with the ocean as the backdrop. Best from 4 pm to sunset.</p></div>
+        </article>
+        <article class="fcard">
+          <img src="assets/img/v-poolside.webp" alt="The Poolside Terrace" />
+          <span class="chip">Up to 250</span>
+          <div class="fcard-txt"><h3>Poolside Terrace</h3><p>Cocktails, mehndi nights and birthdays under the palms.</p></div>
+        </article>
+        <article class="fcard">
+          <img src="assets/img/hall-lawn.webp" alt="The Garden Courtyard with string lights" />
+          <span class="chip">Up to 800</span>
+          <div class="fcard-txt"><h3>Garden Courtyard</h3><p>Fairy lights and long tables, with a rain cover ready all year.</p></div>
+        </article>
+      </div>
+      <div class="flow-ctrl">
+        <button type="button" class="round js-prev" aria-label="Previous space"><svg viewBox="0 0 24 24"><use href="#chev"/></svg></button>
+        <div class="flow-dots" role="tablist" aria-label="Choose a space"></div>
+        <button type="button" class="round js-next" aria-label="Next space"><svg viewBox="0 0 24 24" class="flip"><use href="#chev"/></svg></button>
+      </div>
+    </section>
+
+    <!-- ======= STATEMENT + STATS ======= -->
+    <section class="statement">
+      <p class="say" data-scrub>For twenty-five years, Sri Lankan families have trusted us with the day they'll talk about forever. We handle the nakath, the kitchen and the hundred small details, so you can be present for every moment of it.</p>
+      <span class="sticker st-1" aria-hidden="true">Nakath on time</span>
+      <span class="sticker st-2" aria-hidden="true">Halal &amp; pure-veg kitchens</span>
+      <span class="sticker st-3" aria-hidden="true">Rain plan included</span>
+      <div class="stats">
+        <div><b data-count="25">0</b><span>Years hosting</span></div>
+        <div><b data-count="3400" data-suffix="+">0</b><span>Celebrations</span></div>
+        <div><b data-count="1200">0</b><span>Guests in one hall</span></div>
+        <div><b data-count="15" data-suffix=" min">0</b><span>From BIA airport</span></div>
+      </div>
+    </section>
+
+    <!-- ======= TRADITIONS ======= -->
+    <section class="traditions" id="traditions">
+      <div class="sec-head">
+        <span class="eyebrow" data-fade>03 · Traditions</span>
+        <h2 class="h2" data-split>Every tradition, <em>done properly</em></h2>
+        <p class="lead" data-fade>Our coordinators have run thousands of ceremonies. They know the rituals, the timings and the families.</p>
+      </div>
+      <div class="seg" role="tablist" aria-label="Traditions">
+        <span class="seg-thumb" aria-hidden="true"></span>
+        <button role="tab" aria-selected="true" class="is-on" data-t="0">Sinhala</button>
+        <button role="tab" aria-selected="false" data-t="1">Muslim</button>
+        <button role="tab" aria-selected="false" data-t="2">Tamil Hindu</button>
+        <button role="tab" aria-selected="false" data-t="3">Christian</button>
+        <button role="tab" aria-selected="false" data-t="4">Functions</button>
+      </div>
+      <div class="tpanel" role="tabpanel">
+        <div class="tp-img"><img src="assets/img/trad-poruwa.webp" alt="" /></div>
+        <div class="tp-body">
+          <span class="tp-tag">Poruwa · Homecoming</span>
+          <h3 class="tp-title">Poruwa ceremony</h3>
+          <p class="tp-desc">A carved poruwa dressed in fresh flowers, with Jayamangala Gatha chanters and magul bera drummers, all timed to your nakath.</p>
+          <ul class="tp-list">
+            <li>Poruwa, kalasa and thel pahana setup</li>
+            <li>Ashtaka reciter and drummers on request</li>
+            <li>Kiribath, kavili and a full Sri Lankan buffet</li>
+            <li>A coordinator who keeps the nakath to the minute</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= MOMENTS / FILMS / GALLERY ======= -->
+    <section class="gallery" id="gallery">
+      <div class="sec-head sec-head--left">
+        <span class="eyebrow" data-fade>04 · Moments</span>
+        <h2 class="h2" data-split>A day, <em>frame by frame</em></h2>
+        <p class="lead" data-fade>Four short films and a look through recent celebrations. Tap any frame to open it full-screen.</p>
+      </div>
+
+      <div class="films">
+        <button class="filmcard" type="button" data-i="0" aria-label="Play film: Vows by the water">
+          <span class="film-media">
+            <img src="assets/img/film-ceremony.webp" alt="A wedding arch set on the beach at sunset" loading="lazy" decoding="async" />
+            <video class="film-preview" muted loop playsinline preload="none" aria-hidden="true"><source src="assets/video/film-ceremony.mp4" type="video/mp4" /></video>
+            <span class="film-shade" aria-hidden="true"></span>
+            <span class="film-play" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#play"/></svg></span>
+            <span class="film-len">0:09</span>
+          </span>
+          <span class="film-meta"><span class="film-no">Film 01</span><b>Vows by the water</b><small>Ceremony</small></span>
+        </button>
+        <button class="filmcard" type="button" data-i="1" aria-label="Play film: Garlands and blessings">
+          <span class="film-media">
+            <img src="assets/img/film-ritual.webp" alt="A couple exchanging flower garlands during a Hindu ceremony" loading="lazy" decoding="async" />
+            <video class="film-preview" muted loop playsinline preload="none" aria-hidden="true"><source src="assets/video/film-ritual.mp4" type="video/mp4" /></video>
+            <span class="film-shade" aria-hidden="true"></span>
+            <span class="film-play" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#play"/></svg></span>
+            <span class="film-len">0:09</span>
+          </span>
+          <span class="film-meta"><span class="film-no">Film 02</span><b>Garlands &amp; blessings</b><small>Rituals</small></span>
+        </button>
+        <button class="filmcard" type="button" data-i="2" aria-label="Play film: Until the last dance">
+          <span class="film-media">
+            <img src="assets/img/film-reception.webp" alt="Guests gathered for a candlelit wedding reception" loading="lazy" decoding="async" />
+            <video class="film-preview" muted loop playsinline preload="none" aria-hidden="true"><source src="assets/video/film-reception.mp4" type="video/mp4" /></video>
+            <span class="film-shade" aria-hidden="true"></span>
+            <span class="film-play" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#play"/></svg></span>
+            <span class="film-len">0:09</span>
+          </span>
+          <span class="film-meta"><span class="film-no">Film 03</span><b>Until the last dance</b><small>Reception</small></span>
+        </button>
+        <button class="filmcard" type="button" data-i="3" aria-label="Play film: The venue at golden hour">
+          <span class="film-media">
+            <img src="assets/img/film-venue.webp" alt="Aerial view of the venue lawn and palms at golden hour" loading="lazy" decoding="async" />
+            <video class="film-preview" muted loop playsinline preload="none" aria-hidden="true"><source src="assets/video/film-venue.mp4" type="video/mp4" /></video>
+            <span class="film-shade" aria-hidden="true"></span>
+            <span class="film-play" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#play"/></svg></span>
+            <span class="film-len">0:09</span>
+          </span>
+          <span class="film-meta"><span class="film-no">Film 04</span><b>The venue at golden hour</b><small>The grounds</small></span>
+        </button>
+      </div>
+
+      <div class="mgrid">
+        <button type="button" class="mfig" data-i="4" aria-label="Open photo: The quiet before"><img src="assets/img/gal-couple-hands.webp" alt="A Sri Lankan couple in traditional wedding dress, holding hands in a forest" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Portraits</small>The quiet before</span></button>
+        <button type="button" class="mfig" data-i="5" aria-label="Open photo: Long tables, low light"><img src="assets/img/gal-table-long.webp" alt="A long banquet table dressed with white flowers and candles" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Reception</small>Long tables, low light</span></button>
+        <button type="button" class="mfig" data-i="6" aria-label="Open photo: Portraits that feel like you"><img src="assets/img/gal-couple-close.webp" alt="Close portrait of a Sri Lankan bride and groom" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Portraits</small>Close, and full of feeling</span></button>
+        <button type="button" class="mfig" data-i="7" aria-label="Open photo: Mehndi in bloom"><img src="assets/img/m-henna-hands.webp" alt="Intricate mehndi henna on a bride's hands" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Mehndi</small>Mehndi in bloom</span></button>
+        <button type="button" class="mfig" data-i="8" aria-label="Open photo: Garden reception"><img src="assets/img/gal-table-green.webp" alt="A garden reception table with greenery and candles" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Reception</small>Under the trees</span></button>
+        <button type="button" class="mfig" data-i="9" aria-label="Open photo: A walk after the vows"><img src="assets/img/gal-couple-forest.webp" alt="A newly married couple walking in a garden" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Portraits</small>A walk after the vows</span></button>
+        <button type="button" class="mfig" data-i="10" aria-label="Open photo: Centrepieces, hand-tied"><img src="assets/img/gal-centerpiece.webp" alt="A hand-tied floral centrepiece with candles" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Decor</small>Centrepieces, hand-tied</span></button>
+        <button type="button" class="mfig" data-i="11" aria-label="Open photo: The cake at dusk"><img src="assets/img/cake.webp" alt="A wedding cake styled with flowers" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Details</small>The cake, at dusk</span></button>
+        <button type="button" class="mfig" data-i="12" aria-label="Open photo: Newlyweds"><img src="assets/img/gal-couple-lush.webp" alt="A Sri Lankan couple in ceremonial wedding dress" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Traditions</small>Newlyweds</span></button>
+        <button type="button" class="mfig" data-i="13" aria-label="Open photo: Candlelight service"><img src="assets/img/gal-candles.webp" alt="Candles and white roses on a table" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Decor</small>Candlelight</span></button>
+        <button type="button" class="mfig" data-i="14" aria-label="Open photo: The whole family"><img src="assets/img/gal-couple-family.webp" alt="A Sri Lankan wedding party in traditional dress" loading="lazy" decoding="async" /><span class="mfig-cap"><small>People</small>The whole family</span></button>
+        <button type="button" class="mfig" data-i="15" aria-label="Open photo: Sparklers at midnight"><img src="assets/img/sparklers.webp" alt="A couple celebrating with sparklers" loading="lazy" decoding="async" /><span class="mfig-cap"><small>After dark</small>Sparklers at midnight</span></button>
+        <button type="button" class="mfig" data-i="16" aria-label="Open photo: The Grand Ballroom"><img src="assets/img/m-ballroom-gold.webp" alt="The Grand Ballroom set for a reception" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Spaces</small>The Grand Ballroom</span></button>
+        <button type="button" class="mfig" data-i="17" aria-label="Open photo: Aisle lights"><img src="assets/img/m-aisle-lights.webp" alt="A garden aisle lit at night" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Evening</small>Aisle lights</span></button>
+        <button type="button" class="mfig" data-i="18" aria-label="Open photo: Ivory and candlelight"><img src="assets/img/gal-ivory.webp" alt="Ivory table linen and candles" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Details</small>Ivory &amp; candlelight</span></button>
+        <button type="button" class="mfig" data-i="19" aria-label="Open photo: Walima stage"><img src="assets/img/b-walima-settee.webp" alt="An elegant Walima stage with a settee" loading="lazy" decoding="async" /><span class="mfig-cap"><small>Traditions</small>Walima stage</span></button>
+      </div>
+
+      <p class="gallery-note" data-fade>Every celebration here is different. <a href="#book">Come and see yours.</a></p>
+    </section>
+
+    <!-- ======= PACKAGES ======= -->
+    <section class="packages" id="packages">
+      <div class="sec-head">
+        <span class="eyebrow" data-fade>05 · Packages</span>
+        <h2 class="h2" data-split>Simple, <em>honest</em> packages</h2>
+        <p class="lead" data-fade>Prices per guest include the hall, food, décor and our team. No surprise service charges.</p>
+        <div class="toggle" role="group" aria-label="Day of week" data-fade>
+          <span class="toggle-thumb" aria-hidden="true"></span>
+          <button type="button" class="is-on" data-day="0">Weekday</button>
+          <button type="button" data-day="1">Weekend</button>
+        </div>
+      </div>
+      <div class="plans">
+        <article class="plan" data-fade>
+          <h3>Classic</h3>
+          <p class="plan-for">For homecomings, engagements and intimate weddings</p>
+          <p class="plan-price">LKR <b data-base="4950">4,950</b><span>per guest</span></p>
+          <ul><li>Lotus Hall or Garden Courtyard</li><li>14-dish Sri Lankan buffet</li><li>Floral stage &amp; head table</li><li>Welcome drinks &amp; cake</li></ul>
+          <button type="button" class="pill pill--line" data-pick="0">Choose Classic</button>
+        </article>
+        <article class="plan plan--dark" data-fade>
+          <span class="plan-pop">Most booked</span>
+          <h3>Signature</h3>
+          <p class="plan-for">Our full wedding experience, for any tradition</p>
+          <p class="plan-price">LKR <b data-base="6950">6,950</b><span>per guest</span></p>
+          <ul><li>Grand Ballroom or Seaside Lawn</li><li>22 dishes + one live station</li><li>Poruwa, manavarai or Nikah stage</li><li>Bridal suite for the day</li><li>Day-of coordinator</li></ul>
+          <button type="button" class="pill pill--white" data-pick="1">Choose Signature</button>
+        </article>
+        <article class="plan" data-fade>
+          <h3>Grand</h3>
+          <p class="plan-for">Exclusive use of the venue, with nothing left to chance</p>
+          <p class="plan-price">LKR <b data-base="9500">9,500</b><span>per guest</span></p>
+          <ul><li>Whole venue to yourselves</li><li>Chef's banquet &amp; seafood bar</li><li>Live music &amp; light show</li><li>Dedicated wedding planner</li></ul>
+          <button type="button" class="pill pill--line" data-pick="2">Choose Grand</button>
+        </article>
+      </div>
+      <div class="calc" data-fade>
+        <div class="calc-row">
+          <label for="calcG">Guests</label>
+          <input type="range" id="calcG" min="50" max="1200" step="10" value="300" />
+          <output id="calcGOut">300</output>
+        </div>
+        <p class="calc-total"><span class="js-plan-name">Signature</span> for <span class="js-g">300</span> guests: <b>LKR <span id="calcT">0</span></b></p>
+        <a href="#book" class="pill pill--dark js-quote">Get this quote</a>
+      </div>
+    </section>
+
+    <!-- ======= REVIEWS ======= -->
+    <!-- Sample reviews: replace with real Google reviews before launch -->
+    <section class="reviews" id="reviews">
+      <div class="sec-head">
+        <span class="eyebrow" data-fade>06 · Reviews</span>
+        <h2 class="h2" data-split>What families <em>say</em></h2>
+        <p class="lead" data-fade><b>4.9</b> average from 860 reviews on Google</p>
+      </div>
+      <div class="rail"><div class="rail-track">
+        <article class="rv"><header><i>D</i><div><b>Dilshan &amp; Nadeesha</b><span>Poruwa · Kandy</span></div></header><p>The poruwa on the seaside lawn at sunset made both our families cry happy tears. Every nakath was right on time.</p><footer>★★★★★ · 2 months ago</footer></article>
+        <article class="rv"><header><i>R</i><div><b>Rizwan &amp; Aysha</b><span>Nikah &amp; Walima · Beruwala</span></div></header><p>Separate seating, a halal kitchen and a prayer room. Our elders felt at home, and the music paused for every Adhan.</p><footer>★★★★★ · 3 months ago</footer></article>
+        <article class="rv"><header><i>A</i><div><b>Arjun &amp; Kavya</b><span>Hindu wedding · Jaffna</span></div></header><p>They understood our Thali ceremony completely, from the Nadaswaram players to the banana-leaf lunch.</p><footer>★★★★★ · 5 months ago</footer></article>
+        <article class="rv"><header><i>C</i><div><b>Chamath &amp; Michelle</b><span>Church wedding · Negombo</span></div></header><p>800 guests in the courtyard, and when it rained the cover went up in minutes. Nobody even noticed.</p><footer>★★★★★ · 6 months ago</footer></article>
+        <article class="rv"><header><i>S</i><div><b>Sampath, HR Lead</b><span>Company awards night</span></div></header><p>Smooth AV, a great buffet, and parking for everyone. We've already booked next year.</p><footer>★★★★★ · 1 month ago</footer></article>
+        <article class="rv"><header><i>N</i><div><b>Nuha &amp; Shafeek</b><span>Mehndi night · Puttalam</span></div></header><p>Lanterns by the pool, henna until midnight and the best falooda. Exactly what we dreamed of.</p><footer>★★★★★ · 4 months ago</footer></article>
+      </div></div>
+    </section>
+
+    <!-- ======= FAQ ======= -->
+    <section class="faq" id="faq">
+      <div class="faq-grid">
+        <div class="faq-head">
+          <h2 class="h2" data-split>Good questions</h2>
+          <p class="lead" data-fade>Can't find your answer? Message us on <a href="https://wa.me/94770000000" target="_blank" rel="noopener">WhatsApp</a>. We usually reply within the hour.</p>
+        </div>
+        <div class="qa">
+          <details><summary>How far ahead should we book?</summary><p>Weekends in wedding season (December–April and August) fill 9–12 months ahead. Weekdays are often free with 2–3 months' notice.</p></details>
+          <details><summary>Is your kitchen halal? Do you have vegetarian options?</summary><p>Yes. Our main kitchen is halal and never handles pork. A separate pure-vegetarian kitchen serves Hindu and Buddhist menus.</p></details>
+          <details><summary>Do you host events on Poya days?</summary><p>We follow Poya-day regulations. Ceremonies without alcohol can go ahead. We'll guide you when you pick a date.</p></details>
+          <details><summary>Can we bring our own decorator or photographer?</summary><p>Photographers, yes, always. Outside decorators are welcome on the Grand package with a short site briefing.</p></details>
+          <details><summary>What happens if it rains?</summary><p>Every outdoor booking includes a covered backup space at no extra cost. We make the call with you by noon on the day.</p></details>
+          <details><summary>How much is the advance, and is it refundable?</summary><p>25% reserves your date. You can move it once, free of charge, up to 90 days before.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= BOOK ======= -->
+    <section class="book" id="book">
+      <div class="sec-head">
+        <span class="eyebrow" data-fade>08 · Book a visit</span>
+        <h2 class="h2" data-split>Come and see it <em>in person</em></h2>
+        <p class="lead" data-fade>Pick a date to check it, then tell us a little about your day. We'll call within 24 hours to arrange a site visit.</p>
+      </div>
+      <div class="book-grid">
+        <div class="cal card" data-fade>
+          <div class="cal-head">
+            <button type="button" class="round round--sm cal-nav" data-dir="-1" aria-label="Previous month"><svg viewBox="0 0 24 24"><use href="#chev"/></svg></button>
+            <h3 class="cal-title" aria-live="polite">—</h3>
+            <button type="button" class="round round--sm cal-nav" data-dir="1" aria-label="Next month"><svg viewBox="0 0 24 24" class="flip"><use href="#chev"/></svg></button>
+          </div>
+          <div class="cal-dow"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+          <div class="cal-grid"></div>
+          <div class="cal-key"><span><i class="k k-open"></i>Available</span><span><i class="k k-busy"></i>Booked</span><span><i class="k k-poya"></i>Poya (approx.)</span></div>
+          <p class="cal-msg" aria-live="polite"></p>
+        </div>
+
+        <form class="form card" novalidate data-fade>
+          <div class="form-body">
+            <div class="fld"><label for="f-name">Your names</label><input id="f-name" name="name" required autocomplete="name" placeholder="e.g. Nimal & Shanika" /></div>
+            <div class="row2">
+              <div class="fld"><label for="f-phone">Phone / WhatsApp</label><input id="f-phone" name="phone" type="tel" required autocomplete="tel" pattern="[0-9+ ]{9,15}" placeholder="+94 77 123 4567" /></div>
+              <div class="fld"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" /></div>
+            </div>
+            <div class="row2">
+              <div class="fld"><label for="f-date">Date</label><input id="f-date" name="date" type="date" required /></div>
+              <div class="fld"><label for="f-guests">Guests</label><input id="f-guests" name="guests" type="number" min="20" max="1500" required value="300" /></div>
+            </div>
+            <div class="fld"><label for="f-type">Celebration</label>
+              <select id="f-type" name="type">
+                <option>Poruwa wedding</option><option>Nikah &amp; Walima</option><option>Hindu wedding</option><option>Church wedding</option>
+                <option>Homecoming</option><option>Engagement</option><option>Company event</option><option>Birthday or anniversary</option>
+              </select>
+            </div>
+            <div class="fld"><label for="f-msg">Anything else?</label><textarea id="f-msg" name="msg" rows="3" placeholder="Timings, menu ideas, questions…"></textarea></div>
+            <button type="submit" class="pill pill--dark pill--block">Send enquiry</button>
+            <p class="fine">We'll never share your number.</p>
+          </div>
+          <div class="form-done" hidden>
+            <div class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7"/></svg></div>
+            <h3>Thank you!</h3>
+            <p class="done-sum"></p>
+            <div class="done-actions">
+              <a class="pill pill--dark js-wa-send" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Send on WhatsApp</a>
+              <button type="button" class="pill pill--line js-reset">Send another</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="foot">
+    <div class="foot-cta">
+      <h2 class="h2">Let's plan your day</h2>
+      <div class="hero-ctas">
+        <a href="#book" class="pill pill--dark">Book a site visit</a>
+        <a href="https://wa.me/94770000000" target="_blank" rel="noopener" class="pill pill--light"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>WhatsApp us</a>
+      </div>
+    </div>
+    <div class="foot-cols">
+      <div><h4>Visit</h4><p>No. 88, Lewis Place<br />Negombo 11500, Sri Lanka</p></div>
+      <div><h4>Talk</h4><p><a href="tel:+94310000000">+94 31 000 0000</a><br /><a href="mailto:hello@ransirigrand.lk">hello@ransirigrand.lk</a></p></div>
+      <div><h4>Site visits</h4><p>Every day, 9 am – 7 pm<br />Closed Jumu'ah 12:15–2 pm</p></div>
+      <div><h4>Blessings</h4><p class="bless"><span class="si">සුබ මංගලම්</span><span class="ta">சுப மங்களம்</span><span>بارك الله لكما</span></p></div>
+    </div>
+    <div class="foot-mark" aria-hidden="true">Ransiri Grand</div>
+    <div class="foot-base"><span>© <span class="js-year"></span> Ransiri Grand</span><span>Negombo · Sri Lanka</span></div>
+  </footer>
+
+  <!-- lightbox -->
+  <div class="lb" role="dialog" aria-modal="true" aria-label="Gallery" hidden>
+    <button type="button" class="lb-x round" aria-label="Close gallery"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <button type="button" class="lb-p round" aria-label="Previous"><svg viewBox="0 0 24 24"><use href="#chev"/></svg></button>
+    <figure>
+      <div class="lb-stage">
+        <img alt="" />
+        <video controls playsinline preload="metadata" hidden></video>
+      </div>
+      <figcaption><span class="lb-cap"></span><span class="lb-count"></span></figcaption>
+    </figure>
+    <button type="button" class="lb-n round" aria-label="Next"><svg viewBox="0 0 24 24" class="flip"><use href="#chev"/></svg></button>
+  </div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mark" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="16" r="13"/><path d="M16 5c3 4 4.5 7.6 4.5 11S19 23 16 27c-3-4-4.5-7.6-4.5-11S13 9 16 5z"/></g></symbol>
+    <symbol id="chev" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M8 7h9v9"/></symbol>
+    <symbol id="wa" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M4 20l1.2-3.8A8.5 8.5 0 1 1 8 19z"/><path stroke-linecap="round" d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8a5 5 0 0 1-2.7-2.7l.8-1-1-2z"/></g></symbol>
+    <symbol id="ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></g></symbol>
+    <symbol id="fb" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21h2.9z"/></symbol>
+    <symbol id="tt" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5M14 4c.5 2.6 2.4 4.3 5 4.5"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path fill="currentColor" d="M8.5 5.8v12.4c0 .7.8 1.1 1.4.7l9.3-6.2a.8.8 0 0 0 0-1.4L9.9 5.1c-.6-.4-1.4 0-1.4.7z"/></symbol>
+  </svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js?v=13"></script>
+</body>
+</html>
